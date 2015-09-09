@@ -11,7 +11,7 @@ body {
 }
 
 .hero-spacer {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .hero-feature {
@@ -26,4 +26,39 @@ footer {
 }
 .hero-footer{
     padding: 0 30px;
+}
+.text-footer{
+    font-size: 17px;
+}
+
+.navbar-brand{
+    height: auto;
+}
+
+.message-header{
+    clear: both;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: -90px;
+    margin-right: 130px;
+}
+
+@media (min-width: 768px) {
+    .navbar{
+        min-height: 150px;
+    }
+    .hero-spacer {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+    .thangbich-logo{
+        display: none !important;
+    }
+    .hero-spacer{
+        padding: 10px !important;
+    }
 }
