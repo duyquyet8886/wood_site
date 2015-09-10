@@ -54,11 +54,22 @@ footer {
     }
 }
 
+@media (max-width: 1023px) {
+    .message-header{
+        margin-top: -77px;
+        margin-right: 0;
+        font-size: 26px;
+    }
+}
+
 @media (max-width: 767px) {
     .thangbich-logo{
         display: none !important;
     }
     .hero-spacer{
         padding: 10px !important;
+    }
+    .message-header{
+        display: none;
     }
 }
